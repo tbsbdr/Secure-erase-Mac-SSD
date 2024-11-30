@@ -71,7 +71,7 @@ Your SSD is now securely erased and all data traces are removed.
    echo "Storage is full or an error occurred. Written $((file_index-1)) files."
    exit 0
    ```
-   5. Close **Safari**.
+5. Close **Safari**.
 
 ---
 
