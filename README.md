@@ -44,17 +44,30 @@ done
 
 echo "Storage is full or an error occurred. Written $((file_index-1)) files."
 exit 0
-```
+
+````
+
 1. (Close Safari)
-1. Select Utilities → Terminal
-1. Type `vi erase.sh` (confirm the warning)
+1. Select **Utilities** → **Terminal**
+1. Create script file with the vi editor (confirm the warning).
+   ````
+   vi erase.sh
+   ````
 1. Paste the script ini the **vi** editor as follows:
-1.1. Type `i` (insert mode)
-1.1. Paste the script (`command` + `v`)
-1.1. Save, press `ESC`
-1.1. Enter `:wq` then press `enter`
-1. Make the script file executable: `chmod +x ersae.sh`
-1. Execute the script: `./erase`
+ - Type `i` (insert mode)
+ - Paste the script (`command` + `v`)
+ - Save, press `ESC`
+ - Enter `:wq` then press `enter`
+1. Make the script file executable:
+
+   ````
+   chmod +x erase.sh
+   ````
+
+1. Execute the script:
+   ````
+   ./erase
+   ````
 1. (wait for ca. 5 min, depending on your ssd size)
 1. (exit terminal)
 1. Select **Disk Utility**
