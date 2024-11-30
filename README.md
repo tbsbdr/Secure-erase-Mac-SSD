@@ -92,11 +92,13 @@ Your SSD is now securely erased and all data traces are removed.
    ```bash
    chmod +x erase.sh
    ```
-5.	Run the script:
+
+5. Run the script:
    ```bash
    ./erase.sh
    ```
-6.	Wait for approximately 5 minutes (or longer, depending on SSD size) for the script to complete.
+
+6. Wait for approximately 5 minutes (or longer, depending on SSD size) for the script to complete.
 
 ---
 
@@ -106,5 +108,5 @@ Your SSD is now securely erased and all data traces are removed.
 3.	Choose **APFS (Encrypted)** or any format of your choice.
 	- This step discards the encryption key set earlier, effectively scrambling the SSD data.
 
-### Done! ☑️
+### Done! ✅
 Your SSD is securely erased, and all data traces have been removed.
