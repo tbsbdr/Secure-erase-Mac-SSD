@@ -2,11 +2,14 @@
 
 Follow these steps to securely erase your Mac SSD:
 
+_This procedure serves as a **calming measure** 💊 if you find it odd that your SSD can be securely erased in just seconds_ 😉
+
+
 ## TL;DR:
 
 1. **Encrypt and Erase**: Use **Disk Utility** to erase the SSD with **APFS (Encrypted)** format.
 2. **Overwrite with Random Data**: Run a script in **Terminal** to fill the SSD with random data until full.
-3. **Erase Again**: Use **Disk Utility** to erase the SSD again, discarding the encryption key.
+3. **Erase Again**: Use **Disk Utility** to erase the SSD again, 🚮 **discarding the encryption key** ✅ .
 
 Your SSD is now securely erased and all data traces are removed.
 
